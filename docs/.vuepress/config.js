@@ -1,7 +1,6 @@
 module.exports = {
   title: "zhousujuan",
   description: "我的个人空间",
-  base: "./",
 
   locales: {
     //设置语言
