@@ -1,7 +1,7 @@
 module.exports = {
   title: "zhousujuan",
   description: "我的个人空间",
-
+  base: "./",
   locales: {
     //设置语言
     "/": {
@@ -12,7 +12,7 @@ module.exports = {
     sidebar: [
       {
         title: "第一章",
-        path: '/',
+        path: "/",
         collapsable: false, // 不折叠
         children: [{ title: "第一节", path: "/" }],
       },
