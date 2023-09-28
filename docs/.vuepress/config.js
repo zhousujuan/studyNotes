@@ -9,19 +9,27 @@ module.exports = {
     },
   },
   themeConfig: {
+    displayAllHeaders: true, // 默认值：false
     nav: [
       { text: "Home", link: "/" },
-      { text: "Guide", link: "/guide/" },
+      { text: "Gitee", link: "https://gitee.com/zhousujuan" },
       { text: "GitHub", link: "https://github.com/zhousujuan" },
     ],
     sidebar: [
       {
-        title: "第一章",
-        path: "/",
+        title: "websoket",
+        path: "/websoket/",
         collapsable: false, // 不折叠
         children: [
-          { title: "第一节", path: "/" },
-          { title: "第二节", path: "/" },
+          { title: "", path: "/websoket/" },
+        ],
+      },
+      {
+        title: "guide",
+        path: "/guide/",
+        collapsable: false, // 不折叠
+        children: [
+          { title: "前言", path: "/guide/" },
         ],
       },
     ],
