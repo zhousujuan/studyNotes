@@ -17,11 +17,11 @@ module.exports = {
     sidebar: [
       {
         title: "第一章",
-        path: "/websoket",
+        path: "/",
         collapsable: false, // 不折叠
         children: [
-          { title: "第一节", path: "/websoket/websoket.md" },
-          { title: "第二节", path: "/websoke" },
+          { title: "第一节", path: "/" },
+          { title: "第二节", path: "/" },
         ],
       },
     ],
