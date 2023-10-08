@@ -17,6 +17,14 @@ module.exports = {
     ],
     sidebar: [
       {
+        title: "guide",
+        path: "/guide/",
+        collapsable: false, // 不折叠
+        children: [
+          { title: "前言", path: "/guide/" },
+        ],
+      },
+      {
         title: "websoket",
         path: "/websoket/",
         collapsable: false, // 不折叠
@@ -25,12 +33,9 @@ module.exports = {
         ],
       },
       {
-        title: "guide",
-        path: "/guide/",
+        title: "Node",
+        path: "/Node/",
         collapsable: false, // 不折叠
-        children: [
-          { title: "前言", path: "/guide/" },
-        ],
       },
     ],
   },
