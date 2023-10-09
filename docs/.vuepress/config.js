@@ -20,17 +20,19 @@ module.exports = {
         title: "guide",
         path: "/guide/",
         collapsable: false, // 不折叠
-        children: [
-          { title: "前言", path: "/guide/" },
-        ],
+      },
+      {
+        title: "问题集",
+        path: "/questions/",
+        collapsable: false, // 不折叠
       },
       {
         title: "websoket",
         path: "/websoket/",
         collapsable: false, // 不折叠
-        children: [
-          { title: "", path: "/websoket/" },
-        ],
+        // children: [
+        //   { title: "", path: "/websoket/" },
+        // ],
       },
       {
         title: "Node",
