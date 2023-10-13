@@ -27,6 +27,11 @@ module.exports = {
         collapsable: false, // 不折叠
       },
       {
+        title: "性能优化",
+        path: "/性能优化/",
+        collapsable: false, // 不折叠
+      },
+      {
         title: "websoket",
         path: "/websoket/",
         collapsable: false, // 不折叠
