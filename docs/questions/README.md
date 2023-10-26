@@ -8,3 +8,17 @@
    - 这样的问题一般都是我们在打包后引入的资源路径出错的问题
    - 我们可以在URL路径前面加上一个公共的路径，即我们的打包配置中publicpath的前缀  <%= BASE_URL %>
    - 或者只要把这里的 publicPath 设置为 "/" 就行，前面不要加点，改了之后问题就解决了。
+
+## 在登录站点之后，关闭浏览器，重新打开，站点登录失败
+项目的鉴权是通过gs的智能网关，在本地存储cookie,重新打开站点的时候有站点的缓存，所以没有走到智能网关，解决方式是清楚站点缓存。。。
+怎么清楚站点缓存
+```
+<!-- 用于设定禁止浏览器从本地机的缓存中调阅页面内容 -->
+<meta http-equiv="pragma" content="no-cache">
+<!--  -->
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<!-- Cache-Control指定请求和响应遵循的缓存机制。在请求消息或响应消息中设置Cache-Control并不会修改另一个消息处理过程中的缓存处理过程。 -->
+<meta http-equiv="Cache-Control" content="no-cache">
+<!-- 可以用于设定网页的到期时间 -->
+<meta http-equiv="expires" content="0">
+```

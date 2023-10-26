@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: 了解更多 →
-actionLink: /日志/
+actionLink: /questions/
 features:
 - title: 后端
   details: ---
