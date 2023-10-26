@@ -12,6 +12,7 @@ module.exports = {
     displayAllHeaders: true, // 默认值：false
     nav: [
       { text: "Home", link: "/" },
+      {text: "日志", link:"/日志/"},
       { text: "Gitee", link: "https://gitee.com/zhousujuan" },
       { text: "GitHub", link: "https://github.com/zhousujuan" },
     ],
@@ -42,6 +43,11 @@ module.exports = {
       {
         title: "Node",
         path: "/Node/",
+        collapsable: false, // 不折叠
+      },
+      {
+        title: "日志",
+        path: "/日志/",
         collapsable: false, // 不折叠
       },
     ],
