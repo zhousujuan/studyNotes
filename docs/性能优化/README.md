@@ -7,3 +7,6 @@ console.log("任务名, ", moment().format('YYYY-MM-DD HH:mm:ss.SSS'))//可以�
 
 ## 常用的链接地址
 - https://docs.unity.cn/cn/2023.2/ScriptReference/Profiling.Profiler.html
+
+## 优化项目的打包时间
+
